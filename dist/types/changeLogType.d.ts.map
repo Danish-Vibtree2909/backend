@@ -1,0 +1,1 @@
+{"version":3,"file":"changeLogType.d.ts","sourceRoot":"","sources":["../../src/types/changeLogType.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAA;AACnC,MAAM,CAAC,OAAO,WAAW,kBAAmB,SAAQ,QAAQ;IACxD,OAAO,EAAE,MAAM,CAAC;IAChB,eAAe,EAAE,MAAM,CAAC;IACxB,WAAW,EAAE,MAAM,CAAC;IACpB,eAAe,EAAE,MAAM,CAAC;IACxB,OAAO,EAAE,MAAM,CAAC;IAChB,KAAK,EAAE,MAAM,CAAC;CACjB"}

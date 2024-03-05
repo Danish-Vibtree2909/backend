@@ -1,0 +1,100 @@
+name: vibtree-backend-v1
+on:
+  push:
+    branches:
+      - main
+      - dev
+      - upgrade
+  pull_request:
+    branches:
+      - main
+      - dev
+      - upgrade
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [16]
+    # env:
+    #   NODE_ENV: "development"
+
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+      - name: Set env to dev
+        if: endsWith(github.ref, '/dev')
+        run: |
+          echo "application_name=vibtree-backend" >> $GITHUB_ENV
+          echo "environment_name=Vibtreebackend-env" >> $GITHUB_ENV
+          echo "NODE_ENV=development" >> $GITHUB_ENV
+
+      - name: Set env to Launch
+        if: endsWith(github.ref, '/upgrade')
+        run: |
+          echo "application_name=launch-vibtree-backend" >> $GITHUB_ENV
+          echo "environment_name=Launchvibtreebackend-env-1" >> $GITHUB_ENV
+          echo "NODE_ENV=development" >> $GITHUB_ENV
+  
+
+      - name: Set env to production
+        if: endsWith(github.ref, '/main')
+        run: |
+          echo "application_name=vibtree-backend-prod" >> $GITHUB_ENV
+          echo "environment_name=Vibtreebackendprod-env" >> $GITHUB_ENV
+          echo "NODE_ENV=production" >> $GITHUB_ENV
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Installing NPM
+        run: npm install --omit=dev 
+
+      # - name: Linting check
+      #   run: npm run lint
+
+      - name: Building application
+        run: npm run build
+
+      - name: Generate deployment package
+        run: zip -r deploy.zip * .[^.]* -x "**node_modules**"
+
+      - name: Get timestamp
+        uses: gerred/actions/current-time@master
+        id: current-time
+
+      - name: Run string replace
+        uses: frabert/replace-string-action@master
+        id: format-time
+        with:
+          pattern: '[:\.]+'
+          string: "${{ steps.current-time.outputs.time }}"
+          replace-with: '-'
+          flags: 'g'
+
+      - name: Beanstalk Deploy for app
+        uses: einaregilsson/beanstalk-deploy@v20
+        with:
+          aws_access_key: 'AKIA32U22EBS6CAAROH3'
+          aws_secret_key: '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'
+          application_name: ${{ env.application_name }}
+          environment_name: ${{ env.environment_name }}
+          region: ap-south-1
+          version_label: "vibtree-${{ steps.format-time.outputs.replaced }}"
+          deployment_package: deploy.zip
+
+      - name: Deployed!
+        run: echo App deployed to ELB

@@ -1,0 +1,1 @@
+{"version":3,"file":"RouteInfo.js","sourceRoot":"","sources":["../../src/middleware/RouteInfo.ts"],"names":[],"mappings":";;;;;;AACA,8DAAsC;AAEtC,iCAAiC;AAC1B,MAAM,QAAQ,GAAG,KAAK,EAAE,GAAY,EAAE,GAAa,EAAE,IAAkB,EAAE,EAAE;IAChF,gBAAM,CAAC,IAAI,CAAC,GAAG,GAAG,CAAC,MAAM,IAAI,GAAG,CAAC,WAAW,GAAG,CAAC,CAAC;IACjD,IAAI,EAAE,CAAC;AACT,CAAC,CAAC;AAHW,QAAA,QAAQ,YAGnB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"SalesActivityTypes.d.ts","sourceRoot":"","sources":["../../src/types/SalesActivityTypes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,QAAQ,EAAC,MAAM,UAAU,CAAC;AAElC,MAAM,WAAW,kBAAmB,SAAQ,QAAQ;IAChD,IAAI,EAAE,MAAM,CAAC;IACb,UAAU,EAAG,MAAM,CAAC;IACpB,UAAU,EAAE,IAAI,CAAC;IACjB,KAAK,EAAE,MAAM,CAAC;CACjB"}

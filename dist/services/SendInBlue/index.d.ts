@@ -1,0 +1,3 @@
+export declare function sendMailUsingSendInBlue(email: string, subject: string, content: string, name: string): Promise<unknown>;
+export declare function sendConfirmationMailUsingSendInBlue(email: string, subject: string, customer_email: string, last_name: string, first_name: string, type: string, country: string, company: string, address: string, phoneNumber: string): Promise<unknown>;
+//# sourceMappingURL=index.d.ts.map

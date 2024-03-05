@@ -1,0 +1,1 @@
+{"version":3,"file":"blocklistModel.js","sourceRoot":"","sources":["../../src/models/blocklistModel.ts"],"names":[],"mappings":";;AAAA,uCAAwC;AAGxC,MAAM,cAAc,GAAG,IAAI,iBAAM,CAAC;IAC9B,MAAM,EAAG;QACL,IAAI,EAAG,MAAM;QACb,QAAQ,EAAG,KAAK;KACnB;IACD,MAAM,EAAG;QACL,IAAI,EAAG,MAAM;QACb,QAAQ,EAAI,KAAK;KACpB;CACJ,CAAC,CAAA;AAEF,kBAAe,IAAA,gBAAK,EAAiB,WAAW,EAAE,cAAc,CAAE,CAAA"}

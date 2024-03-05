@@ -1,0 +1,1 @@
+{"version":3,"file":"BaseException.d.ts","sourceRoot":"","sources":["../../src/exceptions/BaseException.ts"],"names":[],"mappings":"AAAA,cAAM,aAAc,SAAQ,KAAK;IAC7B,MAAM,EAAE,MAAM,CAAC;IACf,OAAO,EAAE,MAAM,CAAC;IAChB,SAAS,EAAE,MAAM,CAAC;gBACN,MAAM,EAAE,MAAM,EAAE,OAAO,EAAE,MAAM,EAAC,SAAS,EAAE,MAAM;CAM9D;AAED,eAAe,aAAa,CAAC"}

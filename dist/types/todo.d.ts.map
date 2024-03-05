@@ -1,0 +1,1 @@
+{"version":3,"file":"todo.d.ts","sourceRoot":"","sources":["../../src/types/todo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAA;AAEnC,MAAM,WAAW,KAAM,SAAQ,QAAQ;IACnC,IAAI,EAAE,MAAM,CAAA;IACZ,WAAW,EAAE,MAAM,CAAA;IACnB,MAAM,EAAE,OAAO,CAAA;CAClB"}

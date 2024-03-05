@@ -1,0 +1,1 @@
+{"version":3,"file":"CancelNumberType.d.ts","sourceRoot":"","sources":["../../src/types/CancelNumberType.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAA;AACnC,MAAM,CAAC,OAAO,WAAW,UAAW,SAAQ,QAAQ;IAChD,MAAM,EAAE,MAAM,CAAC;IACf,MAAM,EAAE,MAAM,CAAC;IACf,IAAI,EAAG,MAAM,CAAC;IACd,OAAO,EAAG,MAAM,CAAC;IACjB,aAAa,EAAG,IAAI,CAAC;IACrB,YAAY,EAAG,IAAI,CAAC;CAEvB"}

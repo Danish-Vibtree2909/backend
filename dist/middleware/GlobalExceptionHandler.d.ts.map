@@ -1,0 +1,1 @@
+{"version":3,"file":"GlobalExceptionHandler.d.ts","sourceRoot":"","sources":["../../src/middleware/GlobalExceptionHandler.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAuB/D,QAAA,MAAM,sBAAsB,QACrB,GAAG,OACH,OAAO,OACP,QAAQ,QACP,YAAY,SAmBnB,CAAC;AAEF,eAAe,sBAAsB,CAAC"}

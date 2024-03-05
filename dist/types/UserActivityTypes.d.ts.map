@@ -1,0 +1,1 @@
+{"version":3,"file":"UserActivityTypes.d.ts","sourceRoot":"","sources":["../../src/types/UserActivityTypes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,QAAQ,EAAC,MAAM,UAAU,CAAC;AAElC,MAAM,CAAC,OAAO,WAAW,iBAAkB,SAAQ,QAAQ;IACvD,OAAO,EAAG,MAAM,CAAC;IACjB,OAAO,EAAG,GAAG,CAAC;IACd,IAAI,EAAG,MAAM,CAAC;IACd,SAAS,EAAG,MAAM,CAAC;IACnB,SAAS,EAAG,MAAM,CAAC;CACtB"}

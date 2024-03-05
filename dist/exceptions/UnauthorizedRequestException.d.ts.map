@@ -1,0 +1,1 @@
+{"version":3,"file":"UnauthorizedRequestException.d.ts","sourceRoot":"","sources":["../../src/exceptions/UnauthorizedRequestException.ts"],"names":[],"mappings":"AAAA,OAAO,aAAa,MAAM,iBAAiB,CAAC;AAE5C,cAAM,4BAA6B,SAAQ,aAAa;;CAIvD;AAED,eAAe,4BAA4B,CAAC"}

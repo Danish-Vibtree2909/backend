@@ -1,0 +1,1 @@
+{"version":3,"file":"screenshotType.d.ts","sourceRoot":"","sources":["../../src/types/screenshotType.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAG,MAAM,EAAE,MAAM,UAAU,CAAA;AAC5C,MAAM,CAAC,OAAO,WAAW,mBAAoB,SAAQ,QAAQ;IACzD,KAAK,EAAE,MAAM,CAAC;IACd,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,MAAM,CAAC;IAChB,GAAG,EAAE,CAAC,MAAM,CAAC,KAAK,CAAC,KAAK,CAAC,CAAA;CAC5B"}

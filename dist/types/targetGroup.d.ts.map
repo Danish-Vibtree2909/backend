@@ -1,0 +1,1 @@
+{"version":3,"file":"targetGroup.d.ts","sourceRoot":"","sources":["../../src/types/targetGroup.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAA;AACnC,MAAM,CAAC,OAAO,WAAW,WAAY,SAAQ,QAAQ;IACjD,IAAI,EAAE,MAAM,CAAC;IACb,UAAU,EAAE,MAAM,EAAE,CAAC;IACrB,eAAe,EAAG,MAAM,CAAA;CAC3B"}
